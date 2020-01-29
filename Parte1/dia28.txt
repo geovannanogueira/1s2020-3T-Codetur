@@ -1,0 +1,4 @@
+Backlogs = todas as nossas tarefas (tarefa principal)
+Scrum é a saída para tarefas/ times 
+
+

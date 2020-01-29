@@ -1,0 +1,5 @@
+MVP = Produto Minimamente Viável 
+
+É um conjunto de testes primários feitos para validar a viabilidade do negócio.
+O empreendedor vai oferecer o mínimo de funcionalidades para conhecer na prática a reação do mercado, a compreensão do cliente sobre seu produto e se ele — de fato — soluciona o problema do consumidor.
+Como se fosse um aquele um mês no Netflix, teste experimemtal
