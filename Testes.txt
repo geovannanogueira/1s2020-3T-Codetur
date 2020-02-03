@@ -1,0 +1,22 @@
+Assert: Para validar( null ou notnull)
+
+**Injeção de Dependência
+(https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672)
+Teste ajuda a ver se as regras de negocio estão corretas
+Equal: Comparação
+**Tipos de teste*
+(https://targettrust.com.br/blog/os-13-principais-tipos-de-testes-de-software/)
+
+Teste>>JANELAS>>GERENCIADOR DE TESTE>> SELECIONA O QUE VAI SER TESTADO >> EXECULTAR TESTE
+
+levantamento de requisitos 
+SCRUM
+Analise e levantamento de requisitos
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Code First do pacote   
