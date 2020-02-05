@@ -1,6 +1,7 @@
 ﻿using Senai.CodeTur.Dominio.Entidades;
 using Senai.CodeTur.Dominio.Interfaces.Repositorios;
 using Senai.CodeTur.Infra.Data.Repositorios;
+using Senai.CodeTur.Servico.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,14 +18,14 @@ namespace Senai.CodeTur.Teste.XUnit.Repositorios {
 
         [Fact]
         public void UsuarioInvalido() {
-            var usuario = _usuarioRepositorio.EfetuarLogin("admin@admin.com","1112");
+            var usuario = _usuarioRepositorio.EfetuarLogin(new LoginViewModel() { Email = "admin@admin.com", Senha = "1112" });
 
             Assert.Null(usuario);
         }
 
         [Fact]
         public void UsuarioValido() {
-            var usuario = _usuarioRepositorio.EfetuarLogin("fernando.guerra@sp.senai.br", "senai132");
+            var usuario = _usuarioRepositorio.EfetuarLogin(new LoginViewModel() { Email  ="fernando.guerra@sp.senai.br", Senha= "senai132" });
 
             Assert.NotNull(usuario);
         }
@@ -37,7 +38,7 @@ namespace Senai.CodeTur.Teste.XUnit.Repositorios {
                 Senha = "senai132"
             };
 
-            var usuarioRetorno = _usuarioRepositorio.EfetuarLogin(usuario.Email, usuario.Senha);
+            var usuarioRetorno = _usuarioRepositorio.EfetuarLogin(new LoginViewModel() { Email= usuario.Email,Senha= usuario.Senha });
 
             Assert.Equal(usuarioRetorno.Email,usuario.Email);
             Assert.Equal(usuarioRetorno.Senha,usuario.Senha);

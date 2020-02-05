@@ -2064,7 +2064,8 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
+          "Senai.CodeTur.Servico": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Senai.CodeTur.Dominio.dll": {}
@@ -2080,13 +2081,24 @@
           "Microsoft.EntityFrameworkCore": "2.1.11",
           "Microsoft.EntityFrameworkCore.Design": "2.1.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
-          "Senai.CodeTur.Dominio": "1.0.0"
+          "Senai.CodeTur.Dominio": "1.0.0",
+          "Senai.CodeTur.Servico": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Senai.CodeTur.Infra.Data.dll": {}
         },
         "runtime": {
           "bin/placeholder/Senai.CodeTur.Infra.Data.dll": {}
+        }
+      },
+      "Senai.CodeTur.Servico/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Senai.CodeTur.Servico.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senai.CodeTur.Servico.dll": {}
         }
       }
     }
@@ -7049,6 +7061,11 @@
       "type": "project",
       "path": "../Senai.CodeTur.Infra.Data/Senai.CodeTur.Infra.Data.csproj",
       "msbuildProject": "../Senai.CodeTur.Infra.Data/Senai.CodeTur.Infra.Data.csproj"
+    },
+    "Senai.CodeTur.Servico/1.0.0": {
+      "type": "project",
+      "path": "../Senai.CodeTur.Servico/Senai.CodeTur.Servico.csproj",
+      "msbuildProject": "../Senai.CodeTur.Servico/Senai.CodeTur.Servico.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7069,11 +7086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\Senai.CodeTur.Teste.XUnit.csproj",
+      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\Senai.CodeTur.Teste.XUnit.csproj",
       "projectName": "Senai.CodeTur.Teste.XUnit",
-      "projectPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\Senai.CodeTur.Teste.XUnit.csproj",
+      "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\Senai.CodeTur.Teste.XUnit.csproj",
       "packagesPath": "C:\\Users\\47503773847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\obj\\",
+      "outputPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Teste.XUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7094,11 +7111,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj": {
-              "projectPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj"
+            "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj": {
+              "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj"
             },
-            "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj"
+            "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj"
             }
           }
         }

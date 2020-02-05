@@ -1,6 +1,7 @@
 ﻿using Senai.CodeTur.Dominio.Entidades;
 using Senai.CodeTur.Dominio.Interfaces.Repositorios;
 using Senai.CodeTur.Infra.Data.Contextos;
+using Senai.CodeTur.Servico.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,13 +17,14 @@ namespace Senai.CodeTur.Infra.Data.Repositorios {
         /// <param name="senha"></param>
         /// <returns>Retorna um objeto UsuarioDominio</returns>
 
-        public UsuarioDominio EfetuarLogin(string email, string senha) {
+        public UsuarioDominio EfetuarLogin(LoginViewModel login) {
             try {
                 using (CodeTurContext ctx = new CodeTurContext()) {
-                    return ctx.Usuarios.FirstOrDefault(x => x.Email == email && x.Senha == senha);
+                    return ctx.Usuarios.FirstOrDefault(x => x.Email == login.Email && x.Senha == login.Senha);
                 }
             } catch (Exception e) {
                 throw new Exception(e.Message);
+
             }
         }
     }

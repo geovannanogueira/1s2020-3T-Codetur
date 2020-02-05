@@ -7,7 +7,9 @@ namespace Senai.CodeTur.Dominio.Interfaces.Repositorios
 {
     public interface IPacoteRepositorio
     {
-        void CadastrarPacotes(PacoteDominio pacotes);
+        PacoteDominio CadastrarPacotes(PacoteDominio pacotes);
+
+        PacoteDominio BuscarPorId(int id);
 
         List<PacoteDominio> ListarPacote();
     }

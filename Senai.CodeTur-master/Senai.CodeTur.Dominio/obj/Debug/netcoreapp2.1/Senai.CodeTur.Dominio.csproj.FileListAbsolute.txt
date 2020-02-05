@@ -20,3 +20,17 @@ C:\Users\47503773847\Documents\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\De
 C:\Users\47503773847\Documents\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.AssemblyInfo.cs
 C:\Users\47503773847\Documents\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.dll
 C:\Users\47503773847\Documents\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.pdb
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.deps.json
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.runtimeconfig.json
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.runtimeconfig.dev.json
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.dll
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.pdb
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.csprojAssemblyReference.cache
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.AssemblyInfoInputs.cache
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.AssemblyInfo.cs
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.dll
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.pdb
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Servico.dll
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\bin\Debug\netcoreapp2.1\Senai.CodeTur.Servico.pdb
+C:\Users\47503773847\Documents\Sprint1_Codetur\1s2020-3T-Codetur\Senai.CodeTur-master\Senai.CodeTur.Dominio\obj\Debug\netcoreapp2.1\Senai.CodeTur.Dominio.csproj.CopyComplete

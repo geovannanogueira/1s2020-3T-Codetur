@@ -1,0 +1,7 @@
+apresentação 
+
+- pq o teste é importante, o que ele agrega, exemplo prático utilizando testes
+- teste web/app -> jest -> enzyme
+- amanhã/apresentação
+- 15 a 20 minutos
+ 

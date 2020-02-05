@@ -10,11 +10,21 @@ namespace Senai.CodeTur.Infra.Data.Repositorios
 {
     public class PacoteRepositorio : IPacoteRepositorio
     {
-        public void CadastrarPacotes( PacoteDominio pacotes ) { 
+        public PacoteDominio BuscarPorId(int id)
+        {
+            using (CodeTurContext ctx = new CodeTurContext())
+            {
+                return ctx.Pacotes.Find(id);
+            }
+        }
+
+        public PacoteDominio CadastrarPacotes( PacoteDominio pacotes ) { 
            using (CodeTurContext ctx = new CodeTurContext())
            {
                 ctx.Pacotes.Add(pacotes);
                 ctx.SaveChanges();
+
+                return BuscarPorId(pacotes.IdPacote);
            }
         }
 
@@ -25,5 +35,6 @@ namespace Senai.CodeTur.Infra.Data.Repositorios
                 return ctx.Pacotes.ToList();
             }
         }
+        
     }
 }

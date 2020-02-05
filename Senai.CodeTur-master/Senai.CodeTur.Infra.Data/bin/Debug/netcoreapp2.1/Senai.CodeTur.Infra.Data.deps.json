@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "2.1.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.11",
-          "Senai.CodeTur.Dominio": "1.0.0"
+          "Senai.CodeTur.Dominio": "1.0.0",
+          "Senai.CodeTur.Servico": "1.0.0"
         },
         "runtime": {
           "Senai.CodeTur.Infra.Data.dll": {}
@@ -531,10 +532,16 @@
       "Senai.CodeTur.Dominio/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
+          "Senai.CodeTur.Servico": "1.0.0"
         },
         "runtime": {
           "Senai.CodeTur.Dominio.dll": {}
+        }
+      },
+      "Senai.CodeTur.Servico/1.0.0": {
+        "runtime": {
+          "Senai.CodeTur.Servico.dll": {}
         }
       }
     }
@@ -938,6 +945,11 @@
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
     },
     "Senai.CodeTur.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senai.CodeTur.Servico/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

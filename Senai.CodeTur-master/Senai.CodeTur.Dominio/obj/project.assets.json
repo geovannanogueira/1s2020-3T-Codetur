@@ -945,6 +945,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "Senai.CodeTur.Servico/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Senai.CodeTur.Servico.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Senai.CodeTur.Servico.dll": {}
+        }
       }
     }
   },
@@ -3604,6 +3614,11 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "Senai.CodeTur.Servico/1.0.0": {
+      "type": "project",
+      "path": "../Senai.CodeTur.Servico/Senai.CodeTur.Servico.csproj",
+      "msbuildProject": "../Senai.CodeTur.Servico/Senai.CodeTur.Servico.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3611,7 +3626,8 @@
       "Microsoft.EntityFrameworkCore >= 2.1.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.11",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.11",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Senai.CodeTur.Servico >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3622,11 +3638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
       "projectName": "Senai.CodeTur.Dominio",
-      "projectPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
+      "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
       "packagesPath": "C:\\Users\\47503773847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3646,7 +3662,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj": {
+              "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

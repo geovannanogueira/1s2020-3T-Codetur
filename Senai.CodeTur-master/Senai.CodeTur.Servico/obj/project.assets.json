@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
+      "projectUniqueName": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
       "projectName": "Senai.CodeTur.Servico",
-      "projectPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
+      "projectPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
       "packagesPath": "C:\\Users\\47503773847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47503773847\\Documents\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\obj\\",
+      "outputPath": "C:\\Users\\47503773847\\Documents\\Sprint1_Codetur\\1s2020-3T-Codetur\\Senai.CodeTur-master\\Senai.CodeTur.Servico\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

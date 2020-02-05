@@ -13,4 +13,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Senai.CodeTur.Servico\Senai.CodeTur.Servico.csproj" />
+  </ItemGroup>
+
 </Project>
