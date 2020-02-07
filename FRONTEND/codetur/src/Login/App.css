@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.container {
+    height: 20vmin;
+    justify-content: center;
+  }
+
+
+.conttt  {
+    height: 50%;
+    width: 30%;
+    margin: 0 35%;
+    margin: auto;
+    padding: 5%
+  }
+  
+

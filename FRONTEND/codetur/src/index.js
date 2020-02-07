@@ -4,7 +4,8 @@ import './index.css';
 
 
 import App from './Login/App';
-import pacotes from './Pacotes/App'
+import pacotes from './Pacotes/App';
+import lista from './Listas/lista';
 
 import { Route, BrowserRouter as Router, Switch} from "react-router-dom";
 
@@ -32,6 +33,7 @@ const routing = (
             <Switch>
                 <Route exact path='/' component={App}/>
                 <Route path='/pacotes' component={pacotes}/>
+                <Route path='/lista' component={lista}/>
             </Switch>
         </div>
     </Router>

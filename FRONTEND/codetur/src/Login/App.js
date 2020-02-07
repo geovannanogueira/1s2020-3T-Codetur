@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
+import './App.css';
 
 import logo from '../assets/fotos/logo.png';
 
@@ -52,14 +53,17 @@ export default class Login extends React.Component {
                         <img src={logo} />
                     </div>
                 </header>
-                <section>
+                <section className="conttt">
                     <form onSubmit={this.efetuarLogin}>
                         <div>
                             <input className="input_login" placeholder="   Email" type="email" name="username" id="login_email" onChange={this.email} value={this.state.email} />
                         </div>
+                        <br/>
                         <div>
                             <input className="input_login" placeholder="   Senha" type="password" name="password" id="login_senha" onChange={this.senha} value={this.state.senha} />
+                            
                         </div>
+                        <br/>
                         <div>
                             <button className="btn_login" id="botao_login">Efetuar Login</button>
                         </div>

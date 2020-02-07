@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Axios from 'axios'
-import './pacotes.css';
+import './lista.css';
 import logo from '../assets/fotos/logo.png';
 
 export default class Pacotes extends React.Component {
@@ -61,46 +61,21 @@ export default class Pacotes extends React.Component {
         console.log(this.state.oferta)
     }
 
-    Cadastrar = (event) => {
-        event.preventDefault();
+   
 
-        fetch("http://localhost:5000/api/pacotes", {
-            method: "POST",
-            body: JSON.stringify({
-                titulo: this.state.titulo,
-                imagem: this.state.imagem,
-                descricao: this.state.descricao,
-                dataInicial: this.state.dataInicial,
-                dataFinal: this.state.dataFinal,
-                pais: this.state.pais,
-                ativo: this.state.ativo,
-                oferta: this.state.oferta
-            }),
-            headers: {
-                "Content-Type": "application/json",
-                Authorization: "Bearer " + localStorage.getItem("usuario-codetur")
-            }
-        })
-            .then(console.log("deu certo!"))
-
-            .catch(erro => {
-                console.log(erro);
-            })
+    componentDidMount() {
+        this.listarPacotes();
     }
 
-    // componentDidMount() {
-    //     this.listarPacotes();
-    // }
-
-    // listarPacotes = () => {
-    //     Axios.get('http://localhost:5000/api/pacotes', {
-    //         headers: { 'Authorization': 'Bearer ' + localStorage.getItem('usuario-codetur') }
-    //     })
-    //         .then(response => {
-    //             this.setState({ lista: response.data })
-    //             console.log({ lista: response.data })
-    //         })
-    // }
+    listarPacotes = () => {
+        Axios.get('http://localhost:5000/api/pacotes', {
+            headers: { 'Authorization': 'Bearer ' + localStorage.getItem('usuario-codetur') }
+        })
+            .then(response => {
+                this.setState({ lista: response.data })
+                console.log({ lista: response.data })
+            })
+    }
 
     render() {
         return (
@@ -109,65 +84,26 @@ export default class Pacotes extends React.Component {
                 <div className="container">
                         <img src={logo} />
                  </div>
-                 <Link id="Link" to='/lista'>Todos os pacotes</Link>
+                 {/* <Link id="Link" to='/'>Logout</Link> */}
                 </header>
                 <section className="conteudo">
                     <div className="cadastrar">
                         <div className="ihhmiga">
                             <h1>Cadastro de pacotes:</h1>
                         </div>
-                        <div className="cadastar-conteudo">
-                            <form onSubmit={this.Cadastrar}>
-                                <div>
-                                <div>
-                                    <p>Oferta</p>
-                                    <input type="text" name="username" onChange={this.estadoOferta}/>
-                                </div>
-                                    <p>Destino</p>
-                                    <input type="text" name="username" onChange={this.estadoTitulo}/>
-                                </div>
-
-                                <div>
-                                    <p>País</p>
-                                    <input type="text" name="username" onChange={this.estadoPais}/>
-                                </div>
-
-                                <div>
-                                    <p>Link da imagem</p>
-                                    <input type="text" name="username" onChange={this.estadoImagem}/>
-                                </div>
-                                <div>
-                                    <p>Descrição</p>
-                                    <input type="text" name="username" onChange={this.estadoDescricao}/>
-                                </div>
-                                <div>
-                                    <p>Data Inicial</p>
-                                    <input type="text" name="username" onChange={this.estadoDataInicial}/>
-                                </div>
-                                <div>
-                                    <p>Data Final</p>
-                                    <input type="text" name="username" onChange={this.estadoDataFinal}/>
-                                </div>
-                                
-                                <div>
-                                    <p>Ativo</p>
-                                    <input type="text" name="username" onChange={this.estadoAtivo}/>
-                                </div>
-                                
-                            </form>
-                        </div>
+                     
                     </div>
 
-                    {/* <div className="listar">
+                    <div className="listar">
                         <table className="tabela">
                             <thead className="tabela2">
                                 <tr>
                                     <th scope="col">Título</th>
                                     <th scope="col">Imagem</th>
+                                    <th scope="col">País</th>
                                     <th scope="col">Descrição</th>
                                     <th scope="col">Data Inicial</th>
                                     <th scope="col">Data Final</th>
-                                    <th scope="col">País</th>
                                     <th scope="col">Ativo</th>
                                     <th scope="col">Oferta</th>
                                 </tr>
@@ -190,13 +126,12 @@ export default class Pacotes extends React.Component {
                                 })}
                             </tbody>
                         </table>
-                    </div> */}
+                    </div>
 
                 </section>
-                <Link id="Link" to='/lista'>Cadastrar<br/></Link>
+                <Link id="Link" to='/'>Cadastrar</Link>
                 <br/>
-                {/* <br/>
-                 <Link id="Link" to='/App'>Logout</Link> */}
+                 {/* <Link id="Link" to='/'>Logout</Link> */}
             </div>
         );
     }
