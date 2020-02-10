@@ -65,6 +65,7 @@ export default class Pacotes extends React.Component {
 
     componentDidMount() {
         this.listarPacotes();
+        
     }
 
     listarPacotes = () => {
@@ -83,12 +84,19 @@ export default class Pacotes extends React.Component {
                 <header className="container">
                 <div className="container">
                         <img src={logo} />
+                        
                  </div>
+                 <div className="nn">
+                     <br/>
+                 <Link id="Link" to='/'>Logout</Link> 
+                 </div>
+              
                  {/* <Link id="Link" to='/'>Logout</Link> */}
                 </header>
                 <section className="conteudo">
                     <div className="cadastrar">
                         <div className="ihhmiga">
+                        <br/>
                             <h1>Cadastro de pacotes:</h1>
                         </div>
                      
@@ -129,9 +137,7 @@ export default class Pacotes extends React.Component {
                     </div>
 
                 </section>
-                <Link id="Link" to='/'>Cadastrar</Link>
-                <br/>
-                 {/* <Link id="Link" to='/'>Logout</Link> */}
+
             </div>
         );
     }

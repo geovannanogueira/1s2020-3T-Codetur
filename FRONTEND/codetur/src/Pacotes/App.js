@@ -109,7 +109,10 @@ export default class Pacotes extends React.Component {
                 <div className="container">
                         <img src={logo} />
                  </div>
+                 <div className="nn">
                  <Link id="Link" to='/lista'>Todos os pacotes</Link>
+                 </div>
+                 
                 </header>
                 <section className="conteudo">
                     <div className="cadastrar">
@@ -193,7 +196,9 @@ export default class Pacotes extends React.Component {
                     </div> */}
 
                 </section>
-                <Link id="Link" to='/lista'>Cadastrar<br/></Link>
+                <section className="gg">
+                <Link id="Link" to='/lista'>Finalizar cadastro<br/></Link>
+                </section>
                 <br/>
                 {/* <br/>
                  <Link id="Link" to='/App'>Logout</Link> */}

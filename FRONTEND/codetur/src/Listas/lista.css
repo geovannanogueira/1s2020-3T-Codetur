@@ -1,5 +1,17 @@
-.tabela2 {
-    width: 10%;
-    justify-content: center;
-    display: flex;
+.tabela {
+    width: 1300px;
+    margin: auto;
+    border: 5px black;
+ 
+}
+h1{
+    color: brown;
+}
+
+.AppP {
+    background-color: aliceblue;
+    width: 100%;
+}
+.nn {
+    text-align: right;
 }

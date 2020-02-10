@@ -3,9 +3,14 @@
     background-color: aliceblue;
     text-align: center;
     width: 20%;
+    
 }
 .container {
-    text-align: left;
+    text-align: initial;
 
 }
 
+.gg {
+    text-align: center;
+    color: brown!important;
+}

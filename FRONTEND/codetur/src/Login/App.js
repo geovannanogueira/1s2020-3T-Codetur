@@ -9,8 +9,8 @@ export default class Login extends React.Component {
     constructor() {
         super();
         this.state = {
-            email: "",
-            senha: "",
+            email: "fernando.guerra@sp.senai.br",
+            senha:    "senai132",
             erro: "",
         }
     }
@@ -65,6 +65,7 @@ export default class Login extends React.Component {
                         </div>
                         <br/>
                         <div>
+                            {/* <Link id="Link" to='/'>Cadastrar</Link> */}
                             <button className="btn_login" id="botao_login">Efetuar Login</button>
                         </div>
                         {this.state.erro}
